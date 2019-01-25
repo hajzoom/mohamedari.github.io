@@ -1,0 +1,45 @@
+html {
+	background: url(https://i.pinimg.com/736x/a3/03/3c/a3033c8b069b102dd3b1f15c56f9c541--iphone-backgrounds-phone-wallpapers.jpg);
+	background-size: cover;
+}
+.intro {
+	padding: 0px;
+	border:3px purple solid;
+	font: normal 21px Arial, Helvetica, sans-serif;
+	color:purple;
+	background-color: black;
+	
+
+}
+
+.container {
+	width: 80%;
+	margin: auto; 
+}
+
+img {
+	max-width:100%;
+	height: 400px;	
+	border:3px black solid;
+	text-align: : center;
+}
+
+figcaption {
+	width:600px;
+	max-width:100%; 
+
+}
+
+figure{
+	display: inline-block;
+	max-width: 100%;
+}
+
+figure img{
+	text-align: center;
+
+}
+
+figure figcaption{
+	text-align: center;
+}
