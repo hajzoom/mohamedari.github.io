@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Calendar</title>
+
+	<style >
+		img {
+			max-width: 30px;
+			max-height: 30px;
+			text-align: right;
+			padding: 8px;
+		}
+		h1{
+			text-align: center;
+
+		}
+		body{
+			background-color: darkgrey;
+			font-family: Arial;
+		}
+		.container{
+			display: grid;
+			width:100%;
+			height:minmax(300px, 100%);
+			background-color: grey;
+		
+		}
+		.grid1{
+			display: grid;
+			grid-template-columns: repeat(7, 1fr);
+			padding:20px;
+			box-sizing: border-box;
+			grid-gap: 10px;
+			
+		}
+		.day {
+
+			text-align: center;
+			border:1px solid black;
+			font-size: 32px;
+			padding: 50px;
+			background-color: navy;
+		}
+		.number{
+			border: 1px solid black;
+			background-color:dodgerblue;
+			height:100%;
+		}
+		.number:hover{
+			background:purple;
+		}
+
+		.lastmonth{
+			background-color: lightgrey;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1>January</h1>
+	<h1>2019</h1>
+	<div class="grid1">
+		<div class="day">S</div>
+		<div class="day">M</div>
+		<div class="day">T</div>
+		<div class="day">W</div>
+		<div class="day">Th</div>
+		<div class="day">F</div>
+		<div class="day">S</div>
+		<div class="lastmonth">30</div>
+		<div class="lastmonth">31</div>
+		<div class="number">1
+		<p>New Year's</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Praying_Emoji_60x60.png?13841935165353004195">
+		</div>
+		<div class="number">2</div>
+		<div class="number">3</div>
+		<div class="number">4</div>
+		<div class="number">5 <p>Piano Lessons</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Musical_Keyboard_Emoji_60x60.png?4421550925265430431"> </div>
+		<div class="number">6</div>
+		<div class="number">7</div>
+		<div class="number">8</div>
+		<div class="number">9 <p>Lifting with Caleb</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Flexing_Muscles_Emoji.png?13841935165353004195"></div>
+		<div class="number">10</div>
+		<div class="number">11 <p>Dr's Appt.</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Pencil_Emoji_60x60.png?5754029179590811720"></div>
+		<div class="number">12 <p>Piano Lessons</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Musical_Keyboard_Emoji_60x60.png?4421550925265430431"></div>
+		<div class="number">13</div>
+		<div class="number">14</div>
+		<div class="number">15</div>
+		<div class="number">16</div>
+		<div class="number">17 <p> Miss Baker Due</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Monkey_Face_Emoji_60x60.png?5173740432015257961"></div>
+		<div class="number">18</div>
+		<div class="number">19 <p>Shaima's Birthday <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Hot_Coffee_Emoji_Icon_60x60.png?16285229369325405128"></div>
+		<div class="number">20</div>
+		<div class="number">21</div>
+		<div class="number">22</div>
+		<div class="number">23</div>
+		<div class="number">24 <p>Math Study Group</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Pencil_Emoji_60x60.png?5754029179590811720"></div>
+		<div class="number">25</div>
+		<div class="number">26 <p>Piano Lessons</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Musical_Keyboard_Emoji_60x60.png?4421550925265430431"></div>
+		<div class="number">27 <p>TTC Interview</p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Business_Shirt_With_Tie_Emoji_Icon_60x60.png?16285229369325405128"></div>
+		<div class="number">28 </div>
+		<div class="number">29</div>
+		<div class="number">30</div>
+		<div class="number">31 <p>Calendar Due </p> <img src="https://cdn.shopify.com/s/files/1/1061/1924/files/Pencil_Emoji_60x60.png?5754029179590811720"></div>
+		<div class="lastmonth">1</div>
+		<div class="lastmonth">2</div>
+	</div>
+</div>
+</body>
+</html>
