@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lemonade Empire Idle</title>
+	<link rel="stylesheet" type="text/css" href="Clickergame.css">
+	<script src="main.js"></script>
+</head>
+<body>
+
+	<div class="mainClick">
+		<h1>Lemonade Clicker Idle game</h1>
+		<a href=# onclick="add()"><img src="http://www.pngall.com/wp-content/uploads/2016/05/Lemon-Free-Download-PNG.png"></a>
+		<br><br><br>
+		$ <input type="text" id="dollarAmount" disabled>
+		<br><br><br>
+
+	</div>
+	<div class="upgrades">
+
+		<button><p>Buy Lemonade Stand</p><a href="#" onclick="buyStand(0)"> <img src="https://icon2.kisspng.com/20180215/spw/kisspng-lemonade-stand-iced-tea-clip-art-stand-by-cliparts-5a85ec850e2079.4736394615187262770579.jpg"><p id="standAmount"> You have 0 stands</p><p id="standCost"> Stands cost $25</p><p id="standCash"> Generating $0 per sec</p></a></button>
+
+		<button><p>Buy Lemon Farm</p><a href="#" onclick="buyStand(1)"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGqH01XqZjSLQpvSeT-8oTF0phJtIO_hMT_Wqx4Zaq35NZlR4t"> <p id="farmAmount"> You have 0 Farms</p><p id="farmCost"> Farms cost $50</p><p id="farmCash"> Generating $0 per sec</p></a></button>
+
+		<button><p>Buy Factory</p><a href="#" onclick="buyStand(2)"> <img src="https://img.icons8.com/metro/26/000000/factory.png"> <p id="factoryAmount"> You have 0 Factories</p><p id="factoryCost"> Factories cost $150</p> <p id="factoryCash"> Generating $0 per sec</p></a></button>
+		<br><br>
+		<button><p>Test Your Luck</p><p>Double your money or lose 75%</p><a href="#" onclick="dieRoll()"></button>
+			 <p id="rollMsg"> hello </p>
+
+	</div>
+</body>
+
+
+
+</html>
